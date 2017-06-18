@@ -10,9 +10,6 @@ Sitio web del club de robotica de la facultad de ciencias.
 ## Autores:
 
 * **Roberto Rubalcava** - *Trabajo inicial* - [rubal501](https://github.com/rubal501)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## Licencia:
 
 ## Agradecimientos a:
