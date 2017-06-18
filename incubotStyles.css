@@ -33,6 +33,9 @@ body{
 	padding-top: 0px;
 	background-size: cover;
 	padding-left: 1000px;
-	
-	
+}
+#containerPersonal{
+	padding-right: 100px;
+	padding-left: 100px;
+	background: #456070
 }
