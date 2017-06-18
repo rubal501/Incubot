@@ -9,7 +9,7 @@ Sitio web del club de robotica de la facultad de ciencias.
 
 ## Autores:
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Roberto Rubalcava** - *Trabajo inicial* - [rubal501](https://github.com/rubal501)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -17,5 +17,5 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## Agradecimientos a:
 
-* Donají Xochitl Cruz López
-* Fernando Angeles Uribe
+* [Donají Xochitl Cruz López](https://sites.google.com/a/ciencias.unam.mx/lab-electricidad---electromagnetismo/personal/donaji)
+* [Fernando Angeles Uribe](http://www.astroscu.unam.mx/IA/index.php?option=com_content&view=article&id=493&Itemid=46&lang=es)
