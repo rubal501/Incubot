@@ -4,7 +4,7 @@ Sitio web del club de robotica de la facultad de ciencias.
 
 ## Construido con:
 
-* [Bootstrap3](http://getbootstrap.com/) - El framework para el frontend.
+* [Bootstrap4](https://v4-alpha.getbootstrap.com/) - El framework para el frontend.
 * [Dreamweaver](http://www.adobe.com/mx/products/dreamweaver.html) - IDE.
 * [Jquery](https://jquery.com/) - Libreria JavaScript.
 
