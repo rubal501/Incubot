@@ -1,61 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="css/bootstrap.css">
-  </head>
-  <body>
-    <!--inicio container principal-->
-    <div class="container">
-    	<!--c inicio conntainer barra de navegacion-->
-    	<div class="container-fluid">
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="BarraNavegacion">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#" id="titulo">Incubot</a>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   <head>
+      <title>Incubot</title>
+      <link rel="stylesheet" href="../css/bootstrap.css">
+      <!-- se adapta a moviles-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- se importa Bootstrap CSS -->
+   </head>
+   <body>
+      <!--inicio de container principal-->
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="BarraNavegacion">
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <a class="navbar-brand" href="#" id="titulo">Incubot</a>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" style="color" href="#">Proyectos <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="concursos.html">Concursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Enlaces</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Cursos
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
-                  <a class="dropdown-item" href="https://sites.google.com/a/ciencias.unam.mx/mecatronica/">Mecatronica</a>
-                  <a class="dropdown-item" href="https://sites.google.com/site/roboticaycontrolciencias/">Robotica y control ciencias</a>
-                </div>
-              </li>
+               <li class="nav-item active">
+                  <a class="nav-link" style="color" href="proyectos/proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="concursos/concursos.html">Concursos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Enlaces</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Cursos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                     <a class="dropdown-item" href="https://sites.google.com/a/ciencias.unam.mx/mecatronica/">Mecatronica</a>
+                     <a class="dropdown-item" href="https://sites.google.com/site/roboticaycontrolciencias/">Robotica y control ciencias</a>
+                  </div>
+               </li>
             </ul>
-          </div>
-        </nav>
-      </div>
+         </div>
+      </nav>
       <!--fin del container de la barra de navegacion-->
-    
-    <div class="jumbotron">
-  <div class="container">
-    <h1 class="display-3">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      
+      <div class="container">
+      	<div class="jumbotron jumbotron-concurso" style="margin-bottom: 5px;
+	margin-top: 5px;" id="sexto-concuro">
+  			<h1 class="display-3 texto-sobre-foto">6to concurso</h1>
+  			<p class="lead texto-sobre-foto">el concurso se llevo a cabo el .</p>
+  			<hr class="my-4 texto-sobre-foto">
+ 			 <p class="texto-sobre-foto">inserte descripcion de su preferencia</p>
+  			<p class="lead">
+    			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">ganadores</button>
+    			<a class="btn btn-primary btn-lg" href="concurso-sexto.html" role="button">ver mas</a>
+ 			 </p>
+ 			 
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     aqui van los ganadores
+    </div>
   </div>
 </div>
-   </div>
-    <!--fin del container principal-->
-
-    <!-- descargas base -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
+	</div>
+     	
+     	<div class="jumbotron jumbotron-concurso" id="quinto_concurso" style="margin-bottom: 5px;
+	margin-top: 5px;">
+  			<h1 class="display-3 texto-sobre-foto">5to concurso</h1>
+  			<p class="lead texto-sobre-foto">el concurso se llevo a cabo el .</p>
+  			<hr class="my-4">
+ 			 <p class="texto-sobre-foto">inserte descripcion de su preferencia</p>
+  			<p class="lead">
+    			<a class="btn btn-primary btn-lg" href="concurso-quinto.html" role="button">ganadores</a>
+    			<a class="btn btn-primary btn-lg" href="concurso-sexto.html" role="button">ver mas</a>
+ 			 </p>
+	</div>
+      	
+      	<div class="jumbotron jumbotron-concurso" style="margin-bottom: 5px;
+	margin-top: 5px;">
+  			<h1 class="display-3 texto-sobre-foto">4to concurso</h1>
+  			<p class="lead texto-sobre-foto">el concurso se llevo a cabo el .</p>
+  			<hr class="my-4">
+ 			 <p class="texto-sobre-foto">inserte descripcion de su preferencia</p>
+  			<p class="lead">
+    			<a class="btn btn-primary btn-lg" href="concurso-cuarto.html" role="button">ganadores</a>
+    			<a class="btn btn-primary btn-lg" href="concurso-sexto.html" role="button">ver mas</a>
+ 			 </p>
+	</div>
+     
+     <div class="jumbotron " style="margin-bottom: 5px;
+	margin-top: 5px;">
+  			<h1 class="display-3 texto-sobre-foto">3er concurso</h1>
+  			<p class="lead texto-sobre-foto">el concurso se llevo a cabo el .</p>
+  			<hr class="my-4">
+ 			 <p class ="texto-sobre-foto">inserte descripcion de su preferencia</p>
+  			<p class="lead">
+    			<a class="btn btn-primary btn-lg" href="concurso-tercero.html" role="button">ganadores</a>
+    			<a class="btn btn-primary btn-lg" href="concurso-sexto.html" role="button">ver mas</a>
+ 			 </p>
+	</div>
+     
+     <div class="jumbotron jumbotron-concurso" style="margin-bottom: 5px;
+	margin-top: 5px;">
+  			<h1 class="display-3 texto-sobre-foto">2do concurso</h1>
+  			<p class="lead texto-sobre-foto">el concurso se llevo a cabo el .</p>
+  			<hr class="my-4 texto-sobre-foto">
+ 			 <p class="texto-sobre-foto">inserte descripcion de su preferencia</p>
+  			<p class="lead">
+    			<a class="btn btn-primary btn-lg" href="concurso-segundo.html" role="button">ganadores</a>
+    			<a class="btn btn-primary btn-lg" href="concurso-sexto.html" role="button">ver mas</a>
+ 			 </p>
+	</div>
+     
+     <div class="jumbotron" jumbotron-concurso style="margin-bottom: 5px;
+	margin-top: 5px;">
+  			<h1 class="display-3 texto-sobre-foto">1er concurso</h1>
+  			<p class="lead texto-sobre-foto">el concurso se llevo a cabo el .</p>
+  			<hr class="my-4">
+ 			 <p class="texto-sobre-foto">inserte descripcion de su preferencia</p>
+  			<p class="lead">
+    			<a class="btn btn-primary btn-lg" href="concurso-primero.html" role="button">ganadores</a>
+    			<a class="btn btn-primary btn-lg" href="concurso-sexto.html" role="button">ver mas</a>
+ 			 </p>
+	</div>
+      </div>
+      
+         <footer id="footer-incu" >
+            <div class="container container-fluid">
+               <div class="texto-centrado">
+                  <p><b>Pagina en construccion.</b>Construida con amor y cafe por <a href="https://github.com/rubal501">rubal501</a>
+                     <img id="logo-unam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Escudo-facultad-ciencias-unam-escalable.svg/256px-Escudo-facultad-ciencias-unam-escalable.svg.png">
+                  </p>
+               </div>
+            </div>
+         </footer>
+      <!--fin del container principal-->
+      <!-- se incluye Jquery, bootstrap.js  -->
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="../js/bootstrap.js"></script>
+   </body>
 </html>
