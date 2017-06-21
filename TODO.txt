@@ -1,0 +1,6 @@
+cosas por hacer
+  INDEX:
+    *hacer que el carouse funcione como debe
+    *cambiar fuentes y colores
+    *quitar las imagenes de stock en la parte de los maestros
+    *modificar los datos de maestros
