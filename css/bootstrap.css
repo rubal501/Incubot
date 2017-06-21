@@ -1,6 +1,7 @@
 /*Modificaciones de rubal creadas para el sitio web de incubot*/
 #BarraNavegacion{
-	background: #52A9BD
+	background: #52A9BD;
+
 }
 #titulo{
 	font: 500;
@@ -19,11 +20,18 @@
 	padding-right: 0px;
 	height: 700px;
 }
+#seccion3{
+	background-color:#70a2ad;
+}
 .imagenes-maestros{
 	height:200px ;
 	width: 200px;
 	margin-top: 65px;
-	
+	margin-bottom: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
 }
 .descripcion-maestro{
 	margin-bottom: 80px;
@@ -44,6 +52,25 @@
 	margin: 0px;
 	font: italic
 }
+#carousel1{
+	height: 100px;
+}
+.texto-centrado{
+	text-align: center;
+	vertical-align: middle;
+}
+.texto-centrado-hori{
+	text-align: center;
+}
+#logo-unam{
+	height:100px ;
+	width: 100px;
+	margin-top: 0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -5888,6 +5915,8 @@ button.close {
   position: relative;
   display: none;
   width: 100%;
+	right: 0;
+	left: 0;
 }
 
 @media (-webkit-transform-3d) {
