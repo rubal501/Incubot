@@ -11,8 +11,6 @@ Sitio web del club de robotica de la facultad de ciencias.
 ## Autores:
 
 * **Roberto Rubalcava** - *Trabajo inicial* - [rubal501](https://github.com/rubal501)
-## Licencia:
-
 ## Agradecimientos a:
 
 * [Donají Xochitl Cruz López](https://sites.google.com/a/ciencias.unam.mx/lab-electricidad---electromagnetismo/personal/donaji)
