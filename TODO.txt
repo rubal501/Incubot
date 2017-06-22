@@ -9,7 +9,7 @@ cosas por hacer
     *conseguir fotos a resolucion apropiada().
     *hacer los modal()
     *mejorar las leyendas en cada concuros()
-    *pagina de cada concurso()
+    *pagina de cada concurso(*)
   Proyectos:
     *hacer la pagina de cada proyecto()
     *conseguir imagenes de los proyectos()
