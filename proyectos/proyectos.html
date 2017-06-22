@@ -3,7 +3,7 @@
    <head>
       <style>
          @import url('https://fonts.googleapis.com/css?family=Overpass');
-	  </style>
+      </style>
       <title>Incubot</title>
       <link rel="stylesheet" href="../css/bootstrap.css">
       <!-- se adapta a moviles-->
@@ -26,8 +26,15 @@
                <li class="nav-item">
                   <a class="nav-link" href="../concursos/concursos.html">Concursos</a>
                </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="../enlaces/enlaces.html">Enlaces</a>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="enlaces-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Enlaces utiles
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="enlaces-dropdown">
+                     <a class="dropdown-item" href="http://www.cadsoftusa.com/download-eagle/?language=en">Programa para diseño PCB</a>
+                     <a class="dropdown-item" href="http://www.autodesk.com/education/free-software"> Programa de diseño 3D</a>
+                     <a class="dropdown-item" href="http://energia.nu/"> Energia de Texas Instruments</a>
+                  </div>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,79 +51,169 @@
       <!--fin del container de la barra de navegacion-->
       <!--Inicio del jumbotron-->
       <section class="jumbotron jumbotron-fluid text-center">
-      	<div class="container">
-			<h1 id="titulo-proyectos">Proyectos</h1>
-     		<h3 style="font-family: 'Overpass', sans-serif;">Estos son algunos de los proyectos mas importantes desarrollados por alumnos en <b>Incubot</b></h3>
-      	</div>
-	   </section>
-     <div id="album-proyectos">
-     	<div class="container">
-     		<div class="row">
-     			<div class="card" style="width: 20rem;">
-  					<img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
-  					<div class="card-block">
-    					<h4 class="card-title">Minisumo</h4>
-    					<p class="card-text">Inserte descripcion</p>
-    					<a href="minsumo.html" class="btn btn-primary">Ver mas</a>
-  					</div>
-			</div>
-     		<div class="card " style="width: 20rem;">
-  					<img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
-  					<div class="card-block">
-    					<h4 class="card-title">Hexapodo</h4>
-    					<p class="card-text">Inserte descripcion</p>
-    					<a href="hexapodo.html" class="btn btn-primary">Ver mas</a>
-  					</div>
-			</div>
-     		<div class="card " style="width: 20rem;">
-  					<img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
-  					<div class="card-block">
-    					<h4 class="card-title">Resolvedor de Laberintos</h4>
-    					<p class="card-text">Inserte descripcion</p>
-    					<a href="res-laberintos.html" class="btn btn-primary">Ver mas</a>
-  					</div>
-			</div>
-     		<div class="card " style="width: 20rem;">
-  					<img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
-  					<div class="card-block">
-    					<h4 class="card-title">Segudior de lineas</h4>
-    					<p class="card-text">Inserte descripcion</p>
-    					<a href="segidor.html" class="btn btn-primary">Ver mas</a>
-  					</div>
-			</div>
-     		<div class="card " style="width: 20rem;">
-  					<img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
-  					<div class="card-block">
-    					<h4 class="card-title">luces de coche</h4>
-    					<p class="card-text">Inserte descripcion</p>
-    					<a href="luces.html" class="btn btn-primary">Ver mas</a>
-  					</div>
-			</div>
-     		<div class="card " style="width: 20rem;">
-  					<img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
-  					<div class="card-block">
-    					<h4 class="card-title">proyectos en proceso</h4>
-    					<p class="card-text">Inserte descripcion</p>
-    					<a href="en-proceso.html" class="btn btn-primary">Ver mas</a>
-  					</div>
-			</div>
-     	</div>
-     </div>
-	   </div>
-      <footer id="footer-incu">
-            <div class="container container-fluid">
-               <div class="texto-centrado">
-                  <p><b>Pagina en construccion.</b>Construida con amor y cafe por <a href="https://github.com/rubal501">rubal501</a>
-                     <img id="logo-unam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Escudo-facultad-ciencias-unam-escalable.svg/256px-Escudo-facultad-ciencias-unam-escalable.svg.png">
-                  </p>
+         <div class="container">
+            <h1 id="titulo-proyectos">Proyectos</h1>
+            <h3 style="font-family: 'Overpass', sans-serif;">Estos son algunos de los proyectos mas importantes desarrollados por alumnos en <b>Incubot</b></h3>
+         </div>
+      </section>
+      <div id="album-proyectos">
+         <div class="container">
+            <div class="row">
+               <div class="card" style="width: 20rem;">
+                  <img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
+                  <div class="card-block">
+                     <h4 class="card-title">Minisumo</h4>
+                     <p class="card-text">Inserte descripcion</p>
+                     <button class="btn btn-primary" data-toggle="modal" data-target=".modal-minisumo">Ver mas</button>
+                  </div>
+                  <div class="modal fade modal-minisumo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                           <div class="container">
+                           	<h2 style="text-align: center; margin-bottom: 20px; margin-top: 10px">Minisumo</h2>
+                           	<p>La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.</p>
+                           	</div>
+                           	 <div class="container" style="align-content: center">
+                           	 	<iframe width="100%" height="500" align="middle" src="https://www.youtube.com/embed/r8zhPx3rIgI" frameborder="0" allowfullscreen style="margin-bottom: 20px; ali"></iframe>
+                           	 </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
+               <div class="card " style="width: 20rem;">
+                  <img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
+                  <div class="card-block">
+                     <h4 class="card-title">Hexapodo</h4>
+                     <p class="card-text">Inserte descripcion</p>
+                     <button class="btn btn-primary" data-toggle="modal" data-target=".modal-hexapodo">Ver mas</button>
+                  </div>
+               </div>
+                <div class="modal fade modal-hexapodo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                           <div class="container">
+                           	<h2 style="text-align: center; margin-bottom: 20px; margin-top: 10px">Hexapodo</h2>
+                           	<p>LLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum massa lacus, venenatis sed diam vitae, bibendum faucibus mi. Duis egestas faucibus elementum. Vestibulum cursus at mi sed dapibus. Duis euismod iaculis blandit. Proin congue quis quam non mollis. Proin molestie, libero elementum blandit placerat, dui sem suscipit ante, eget varius metus nunc vel nisi. Nullam euismod aliquam justo ut auctor. Fusce blandit aliquam mi, non vestibulum ante malesuada non. Sed at eros elit. Fusce facilisis suscipit eros et ultricies. Etiam ac cursus mauris. Curabitur condimentum vitae lorem et scelerisque. Nulla non euismod felis.</p>
+                           	</div>
+                           	 <div class="container" style="align-content: center">
+                           	 	<iframe width="100%" height="500" src="https://www.youtube.com/embed/pFjKRrhEi0o" frameborder="0" allowfullscreen></iframe>
+                           	 </div>
+                        </div>
+                     </div>
+                  </div>
+               <div class="card " style="width: 20rem;">
+                  <img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
+                  <div class="card-block">
+                     <h4 class="card-title">Resolvedor de Laberintos</h4>
+                     <p class="card-text">Inserte descripcion</p>
+                     <button class="btn btn-primary" data-toggle="modal" data-target=".modal-laberinto">Ver mas</button>
+                  </div>
+               </div>
+                <div class="modal fade modal-laberinto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                           <div class="container">
+                           	<h2 style="text-align: center; margin-bottom: 20px; margin-top: 10px">laberinto</h2>
+                           	<p>Morbi in erat enim. Fusce justo turpis, tincidunt eu venenatis at, imperdiet ac lectus. Mauris volutpat, elit et gravida varius, libero nulla sollicitudin odio, at feugiat justo metus sed diam. Morbi quis nibh quis magna dignissim commodo in sit amet orci. Maecenas massa ligula, tempus sit amet dictum eu, auctor in mi. Quisque euismod dolor non ante cursus suscipit. Nulla quis sagittis lacus..</p>
+                           	</div>
+                           	 <div class="container" style="align-content: center">
+                           	 	<iframe width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                           	 </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  
+               <div class="card " style="width: 20rem;">
+                  <img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
+                  <div class="card-block">
+                     <h4 class="card-title">Segudior de lineas</h4>
+                     <p class="card-text">Inserte descripcion</p>
+                     <button class="btn btn-primary" data-toggle="modal" data-target=".modal-seguidor">Ver mas</button>
+                  </div>
+               </div>
+               
+                <div class="modal fade modal-seguidor" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                           <div class="container">
+                           	<h2 style="text-align: center; margin-bottom: 20px; margin-top: 10px">Seguidor de lineas</h2>
+                           	<p>Sed semper eros elit, eu elementum est mattis sed. Donec sed lectus id enim ultricies faucibus sed rutrum dolor. Sed tincidunt diam eget sem rutrum tristique. Sed tristique facilisis velit, in placerat nisi rhoncus ut. Aliquam nec lectus sed metus accumsan molestie sed ut ante. Nunc at bibendum libero. Cras non sollicitudin arcu, eget consectetur nulla. Mauris a molestie diam, vel luctus massa. In sit amet semper est, eget efficitur elit. Suspendisse potenti. Integer eleifend risus et libero sodales interdum. Proin quis dui tincidunt ipsum finibus pretium.</p>
+                           	</div>
+                           	 <div class="container" style="align-content: center">
+                           	 	<iframe width="100%" height="500" align="middle" src="https://www.youtube.com/embed/XiD-MwbFYb8" frameborder="0" allowfullscreen style="margin-bottom: 20px; ali"></iframe>
+                           	 </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  
+               <div class="card " style="width: 20rem;">
+                  <img class="card-img-top imagenes-card" src="https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/proyectos/minisumo/DSC_0065.jpg?attachauth=ANoY7coZnHQHCvQlyMDxrezS-nVo1zBBRzYgNv-zv8fJQqEp5abEpSBYaw82L-14szlq9DjTeoaT8NZ4yQwXhdt1fvf9RJ_DGC2AJ9RVdzokA70D01oeWr78n2kA17hxU45-HY3T1vlJ2LDZ8C9IYass2Dll4AsgWJXAIQ1Oe5piYu2_dgFWsDKmV_yj_g5YIc0EGm8oJvivnYxlXdMW8wA8SxQRDhOAGVgi4hmRwLGVVodKjcJD0tw%3D&attredirects=0" alt="Imagen minisumo">
+                  <div class="card-block">
+                     <h4 class="card-title">luces de coche</h4>
+                     <p class="card-text">Inserte descripcion</p>
+                     <button class="btn btn-primary" data-toggle="modal" data-target=".modal-coches">Ver mas</button>
+                  </div>
+               </div>
+               
+                <div class="modal fade modal-coches" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                           <div class="container">
+                           	<h2 style="text-align: center; margin-bottom: 20px; margin-top: 10px">luces de coche</h2>
+                           	<p>La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.</p>
+                           	</div>
+                           	 <div class="container" style="align-content: center">
+                           	 	<iframe width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                           	 </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+               <!--esta carta puedes ser usasa para futuros proyectos en caso de ser necesario solo copie y pegue de nuevo-->   
+               <!--<div class="card " style="width: 20rem;">
+                  <img class="card-img-top imagenes-card" src="inserte la direccion de la fuente" alt="Imagen proyecto">
+                  <div class="card-block">
+                     <h4 class="card-title">Titulo del proyecto</h4>
+                     <p class="card-text">Inserte descripcion</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-coches">Ver mas</button>
+                  </div>
+               </div>
+                <div class="modal fade modal-proceso" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                           
+                           <div class="container">
+                           	<h2 style="text-align: center; margin-bottom: 20px; margin-top: 10px">Titulo del proyecto</h2>
+                           	<p>los alumnos siempre estan trabajando en nuevos proyectos, vuelva despues para poder verlos.</p>
+                           	</div>
+                           	  los videos aqui van
+                           	  <div class="container" style="align-content: center">
+                           	 	<iframe width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                           	 </div>
+                        </div>
+                     </div>
+                  </div>-->
+                  
+                  
             </div>
-         </footer>
+         </div>
+      </div>
+      <footer id="footer-incu">
+         <div class="container container-fluid">
+            <div class="texto-centrado">
+               <p><b>Pagina en construccion.</b>Construida con amor y cafe por <a href="https://github.com/rubal501">rubal501</a>
+                  <img id="logo-unam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Escudo-facultad-ciencias-unam-escalable.svg/256px-Escudo-facultad-ciencias-unam-escalable.svg.png">
+               </p>
+            </div>
+         </div>
+      </footer>
       <!--fin del container principal-->
       <!-- se incluye Jquery, bootstrap.js  -->
       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-      <script src="js/bootstrap.js"></script>
+      <script src="../js/bootstrap.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.js"></script>
    </body>
 </html>
