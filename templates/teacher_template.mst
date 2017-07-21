@@ -1,0 +1,6 @@
+{{#teachers}}
+        <img src="{{srcImage}}" class="rounded-circle imagenes-maestros" >
+        <h2 style="text-align: center">{{name}}</h2>
+        <h5 style="text-align: center">{{contact}}</h5>
+        <p style="text-align: center; margin-bottom: 30px;">{{description}}</p>
+{{/teachers}}

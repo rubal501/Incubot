@@ -1,16 +1,16 @@
 {
-  "srcActive": "https://lh3.googleusercontent.com/cYnDRtf3SZQvKhAOgEcdQRNOV_4EpsZ02y0_jHC6Od3H-gSq0uj0FY8sMI4ZLJDYP_YPSTQQ1Th71pirR-vtbqrHZ3T_RHNNe4v4a81D3zzD-N77pYW0dIPUSXUyGUP1F6-3tQ=w1118-h745-no",
+  "srcActive": "images/image1.jpg",
   "altActive": "imagen1",
-  "tituloActivo": "Sexto concurso de robotica",
-  "subtituloActivo": "realizado el 18 de mayo del 2017",
+  "tituloActivo": "titulo magico",
+  "subtituloActivo": "subtitulo genial",
   "elements": [{
-    "srcImg": "https://lh3.googleusercontent.com/LbUk4oWFZ5S1dMJ30oP7OA3zWbr2Ffa6lgJjGXrBGVNdHFjepJzc_wGT1OKlK2ausDIK0ljfEXlgBd5B-wq79nN-FmGEhfcrhEstOhRfl2Qh_518zEEp0Hbo22DyesXhoc9nLw=w1118-h745-no",
+    "srcImg": "images/image2.jpg",
     "altImg": "segundaImagen",
     "titulo": "titulo especial",
     "subtitulo": "subtitylo especual"
   },
     {
-      "srcImg": "https://lh3.googleusercontent.com/LbUk4oWFZ5S1dMJ30oP7OA3zWbr2Ffa6lgJjGXrBGVNdHFjepJzc_wGT1OKlK2ausDIK0ljfEXlgBd5B-wq79nN-FmGEhfcrhEstOhRfl2Qh_518zEEp0Hbo22DyesXhoc9nLw=w1118-h745-no",
+      "srcImg": "images/image3.jpg",
       "altImg": "terceraImagen",
       "titulo": "titulo especial",
       "subtitulo": "subtitylo especual"

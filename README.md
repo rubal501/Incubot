@@ -3,7 +3,7 @@
 Sitio web del club de robotica de la facultad de ciencias.
 
 ## Sistema de plantillas:
-
+#### index.html
 Para facilitar el proceso de actualizacion y subida de contenido se ha implementado
 la libreria de Javascript "Mustache" la cual junto con Jquery permiten el renderizar los elementos
 de HTML y usar datos obtenidos de un archivo JSON.
@@ -35,6 +35,7 @@ la esctructura de los elementos del array se repiten
 
 * [Bootstrap4](https://v4-alpha.getbootstrap.com/) - El framework para el frontend.
 * [Dreamweaver](http://www.adobe.com/mx/products/dreamweaver.html) - IDE.
+* [WebStorm](http://www.adobe.com/mx/products/dreamweaver.html) - IDE.
 * [Jquery](https://jquery.com/) - Libreria de JavaScript.
 * [Mustache](https://mustache.github.io/) - Libreria de JavaScript para templates.
 

@@ -1,0 +1,6 @@
+<h3>Academia cursos del ciclo {{ciclo}}</h3>
+<ul>
+    {{#cursos}}
+    <li>{{curso}}</li>
+    {{cursos}}
+</ul>
