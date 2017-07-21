@@ -1,0 +1,145 @@
+#BarraNavegacion,
+.footer {
+    background: #52A9BD
+}
+
+.texto-centrado,
+.texto-centrado-hori {
+    text-align: center
+}
+
+#titulo {
+    font: 500;
+    color: #f0f8ff;
+    font-family: 'Roboto Slab', serif
+}
+
+.elementos {
+    color: #f5f5f5;
+    font-family: 'Roboto Slab', serif
+}
+
+#seccion1 {
+    padding-top: 0;
+    object-fit: contain;
+    padding-left: 0;
+    padding-right: 0;
+    height: 700px
+}
+
+#seccion3 {
+    background-color: #70a2ad
+}
+
+.imagenes-maestros {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 65px auto 50px
+}
+
+.descripcion-maestro {
+    margin-bottom: 80px
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px
+}
+
+#carousel1,
+#logo-unam {
+    height: 100px
+}
+
+#cuarto_concurso,
+#primer-concurso,
+#quinto_concurso,
+#segundo-concurso,
+#sexto-concuro,
+#tercero_concurso {
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#texto-footer {
+    column-span: none;
+    margin: 0;
+    font: italic
+}
+
+.texto-centrado {
+    vertical-align: middle
+}
+
+#logo-unam {
+    width: 100px;
+    display: block;
+    align-self: center;
+    margin: 0 auto
+}
+
+#titulo-proyectos {
+    font-size: 80px;
+    font-family: Overpass, sans-serif;
+    color: #4D5051
+}
+
+#album-proyectos {
+    min-height: 50rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+
+.imagenes-card {
+    height: auto!important;
+    width: 20rem!important;
+    display: block!important
+}
+
+#footer-incu {
+    background-color: #52A9BD;
+    padding-bottom: 0;
+    padding-top: 15px;
+    height: auto
+}
+
+#sexto-concuro {
+    background-image: url(https://lh3.googleusercontent.com/FFofsS4O3XjLckl5sDPZk9X0KunOi0vhjoDnm2mwLJEBqYOGVJ8an6EMBuISBi5fdlf82SG0LMpNJ8XQFsnYT2AdkDV8zux-OJd1gfe-129hdSqxS9G9XCyDByPRVMItQwRRLC73iLaYvEx3vQDNYSuA6JE-MY3nkf4jqMwXJ8bA1ZAa3D130AL6_ltY0IgXF3nIJjUHZ1ZWakghmXtjQ28l6ZAFypc7X4_qfgaB9z1OMjxMMMGZM9nj8Y_PldQ8pboyh8RIx7oCgQUcvTyg99xZOuRHLqu1WOXYv4RZ5T6a9-G0BrB9jwGumFWRVlRKXmwUPnQMIotNX_yJriMfvsiJl4YJLMkeQpb5ZWEgmaZ6aA8gVHDJiCH5Z2F4vm_RZPvk8ZyVREYAPUlU2wZhvrtzOXk_Xfb_l1rukSK5AlBxSj59pbVVGlckv1o8hd5t_bRxv0h84Z_kC8yW-dCSvF8ihbzI1-174B--4NDkjl5YI_BodFZ3CdKRTUcJk6QWs0unRtmjCfZTPzNa8z9eDCWDXWJcn94nmcVpUL4IdyRxUG8Q5n0_M0ig20bJceAQPyMWuhToBVuQ-ykKE3QghUKEzJgWTU53svA-ko82OBIdoSEGCfPV29rVarrWkMZxBGKIiaFmK_9snjn8kXALfpwQFMIMBvf_E32p0FeTqQ=w1118-h745-no)
+}
+
+#quinto_concurso {
+    background-image: url(https://lh3.googleusercontent.com/DgzwZgvZdZ5J5e7HVAL2SEZWE4QbZtMDhzVNzs9qZJgR_i75aOA8VQ3Ldc_WVTtAkXUKFMJ1GGqq9ao1xqOss044rpfs8NCex-cvyk7jRK0pwNA2LgRnX6BON1xvOcJgRLYLXi8nWXtqPDgMrIfDi32OYhl6LWvYgIqwreZhWzLhCVf7VXX1KmjRb2ajYZT2hLF_cQg_qEHnEHIUgxu43-gEY2sZMp7lsk48CVd9XCNzEcfE4yLL0oHdcYFqZ8mY4fzvDwHKoRIG5pZab2nM06YGg4qc73yKuK0rzTW9XocSREXVc_LadW1S8lPYnm4z39Iga2hjzH8o1_bL9NjMGCLT7GBGVjaxIbcngTnq_hOebIkYPV_Xlk3Hv1_oYIcerQkBcRJDlsjH7V2g-B6zw_gl166K4EQyxqXZBMyD17k3u52L57P1mMcg8I68cIKyDx2k6xd6hUf9DMaFwaoVx9vzwUyx5yzEuEAvmXMlYQX5nZ-DEP_JhPmDPSMKphpIPWupJ6ARXjzxlBiEerFgaHsd9R-zUGaJIIeC-QQFvaVwfnTrRD_iMKKWU65LiLGReGBeNEVG-Nv7fdQvQltKfoayTPNg8oovL_Beu8kVLXf4kCFfWBFljy2_-FbvaNs5jdvZQZOWYEAJ1vbFdavsVLvY9sJ1PMv5ZuFE5f6Uxg=w1118-h745-no)
+}
+
+#cuarto_concurso {
+    background-image: url(https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/home/13391434_1152753238108857_3200047369329048583_o.jpg?attachauth=ANoY7cr7Z1GxOajbZF1P_eP9CidLFPvBYLktGNBqrAy7N0wNA89swYLdXK-Qj3juLfeSTSjnq_pMu6lPHYQS33X7Uq1jURdoG4LvcLa-LPRc_Ekq6olDTEoq3hbZZrjZc9dWLsmUxPoatwHlP7yxe7a8iQYEugCYTFfBwmepNitg4V5Vsoum902T9NESArDAJPLB1PJERI3SfFtSfy8uULTD0uVBOZMF1buRzMRiM7ktXPWrjZjGPKctG_QSlcon3tqU0sMFS3FofubltqUwFQEmnGWcFBPOXw%3D%3D&attredirects=0)
+}
+
+#tercero_concurso {
+    background-image: url(https://f433b411-a-62cb3a1a-s-sites.googlegroups.com/site/incubot1/home/IMG_6D_0037-1.jpg?attachauth=ANoY7crUdnUw6QtcILGEd6Odnwy6SAcT7AHakiforMVWNkwuOi6kPakZj8tpFq330qwg1bLl8r8T9mWoVylV-s1heyWcywpknvaZz9SMi9D4Vgx2Zf4v1-ajC-9JcyzjeJYTj1FCv52SH_tLaZB7Rv1DbAF5k3xcezysBtW81QS8PPEY02fWylrFwRLlm2ERGMlIJoX8r-9JPgN6QbX4sgCfNYRsNvlVSg%3D%3D&attredirects=0)
+}
+
+#segundo-concurso {
+    background-image: url(https://sites.google.com/site/incubot1/_/rsrc/1468928983919/home/ConcRob20155.jpg?height=280&width=400)
+}
+
+#primer-concurso {
+    background-image: url(https://sites.google.com/site/incubot1/_/rsrc/1468928983919/home/IMG_8741-001.JPG?height=177&width=400)
+}
+
+.texto-sobre-foto {
+    color: #f5f5f5
+}
+
+.nombre-persona {
+    font-size: 20px
+}
+
+.nombre-robot {
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px
+}

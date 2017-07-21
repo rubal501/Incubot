@@ -1,0 +1,28 @@
+{
+  "teachers": [{
+    "srcImg": "https://static.pexels.com/photos/324658/pexels-photo-324658.jpeg",
+    "name": "nombre ",
+    "contact": "info contacto",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat nibh elit, hendrerit suscipit felis ullamcorper dignissim. Nam posuere commodo velit id cursus. Nulla posuere tempor tellus ut rutrum. Donec condimentum lectus nisi, a molestie dui feugiat non. Aenean eget quam malesuada, elementum orci at, iaculis elit. Vestibulum quis ultricies libero, ut venenatis nisl. Curabitur faucibus enim nec dapibus venenatis. Curabitur ut luctus mauris. Integer eleifend, nulla a maximus mollis, enim odio dapibus est, ut eleifend velit lacus in leo. Praesent sed fermentum metus. Aliquam leo ipsum, dictum a nisi nec, vestibulum ullamcorper neque."
+  },
+    {
+      "srcImg": "https://static.pexels.com/photos/324658/pexels-photo-324658.jpeg",
+      "name": "nombre ",
+      "contact": "info contacto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat nibh elit, hendrerit suscipit felis ullamcorper dignissim. Nam posuere commodo velit id cursus. Nulla posuere tempor tellus ut rutrum. Donec condimentum lectus nisi, a molestie dui feugiat non. Aenean eget quam malesuada, elementum orci at, iaculis elit. Vestibulum quis ultricies libero, ut venenatis nisl. Curabitur faucibus enim nec dapibus venenatis. Curabitur ut luctus mauris. Integer eleifend, nulla a maximus mollis, enim odio dapibus est, ut eleifend velit lacus in leo. Praesent sed fermentum metus. Aliquam leo ipsum, dictum a nisi nec, vestibulum ullamcorper neque."
+    },
+    {
+      "srcImg": "https://static.pexels.com/photos/324658/pexels-photo-324658.jpeg",
+      "name": "nombre ",
+      "contact": "info contacto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat nibh elit, hendrerit suscipit felis ullamcorper dignissim. Nam posuere commodo velit id cursus. Nulla posuere tempor tellus ut rutrum. Donec condimentum lectus nisi, a molestie dui feugiat non. Aenean eget quam malesuada, elementum orci at, iaculis elit. Vestibulum quis ultricies libero, ut venenatis nisl. Curabitur faucibus enim nec dapibus venenatis. Curabitur ut luctus mauris. Integer eleifend, nulla a maximus mollis, enim odio dapibus est, ut eleifend velit lacus in leo. Praesent sed fermentum metus. Aliquam leo ipsum, dictum a nisi nec, vestibulum ullamcorper neque."
+    },
+    {
+      "srcImg": "https://static.pexels.com/photos/324658/pexels-photo-324658.jpeg",
+      "name": "nombre ",
+      "contact": "info contacto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat nibh elit, hendrerit suscipit felis ullamcorper dignissim. Nam posuere commodo velit id cursus. Nulla posuere tempor tellus ut rutrum. Donec condimentum lectus nisi, a molestie dui feugiat non. Aenean eget quam malesuada, elementum orci at, iaculis elit. Vestibulum quis ultricies libero, ut venenatis nisl. Curabitur faucibus enim nec dapibus venenatis. Curabitur ut luctus mauris. Integer eleifend, nulla a maximus mollis, enim odio dapibus est, ut eleifend velit lacus in leo. Praesent sed fermentum metus. Aliquam leo ipsum, dictum a nisi nec, vestibulum ullamcorper neque."
+    }
+
+  ]
+}
