@@ -1,0 +1,9 @@
+<footer id="footer-incu">
+         <div class="container container-fluid">
+            <div class="texto-centrado">
+               <p class="texto-centrado">{{{mensajeFooter}}}<br>
+                  <img id="imgFooter" src="{{srcLogo}}">
+               </p>
+            </div>
+         </div>
+</footer>

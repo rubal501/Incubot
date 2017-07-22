@@ -2,16 +2,16 @@
   "ciclo":"2017 - 2018",
   "cursos":[
     {
-      "curso":"Máquinas digitales con laboratorio"
+      "nombre":"Máquinas digitales con laboratorio"
     },
     {
-      "curso":"Temas Selectos de electrónica e instrumentación I - Microcontroladores TI"
+      "nombre":"Temas Selectos de electrónica e instrumentación I - Microcontroladores TI"
     },
     {
-      "curso":"Robótica"
+      "nombre":"Robótica"
     },
     {
-      "curso":"Seminario de Ciencias Computacionales A"
+      "nombre":"Seminario de Ciencias Computacionales A"
     }
   ]
 }

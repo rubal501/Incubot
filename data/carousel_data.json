@@ -1,9 +1,9 @@
 {
-  "srcActive": "images/image1.jpg",
+  "srcActive": "images/image2.jpg",
   "altActive": "imagen1",
   "tituloActivo": "titulo magico",
   "subtituloActivo": "subtitulo genial",
-  "elements": [{
+  "elementos": [{
     "srcImg": "images/image2.jpg",
     "altImg": "segundaImagen",
     "titulo": "titulo especial",
