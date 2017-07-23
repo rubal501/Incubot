@@ -1,0 +1,23 @@
+{
+  "enlacesUtiles":[
+    {
+      "link":"google.com",
+      "nombre":"inserte nombre"
+    },
+    {"link":"google.com",
+      "nombre":"inserte nombre"},
+    {"link":"google.com",
+      "nombre":"inserte nombre"}
+  ],
+  "cursos":[
+    {
+      "link":"google.com",
+      "nombre":"inserte nombre"
+    },
+    {"link":"google.com",
+      "nombre":"inserte nombre"},
+    {"link":"google.com",
+      "nombre":"inserte nombre"}
+  ]
+
+}

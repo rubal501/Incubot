@@ -1,0 +1,48 @@
+{
+  "proyectos": [{
+    "srcImg": "images/stock_robot.jpg",
+    "altImg": "Imagen minisumo",
+    "titulo": "Minisumo",
+    "descripcionBreve": "descricion breve",
+    "descripcionCompleta": "La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.",
+    "idModal": "modal-minisumo",
+    "srcVideo": "https://www.youtube.com/embed/r8zhPx3rIgI"
+  },
+    {
+      "srcImg": "images/stock_robot.jpg",
+      "altImg": "Imagen minisumo",
+      "titulo": "Minisumo",
+      "descripcionBreve": "descricion breve",
+      "descripcionCompleta": "La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.",
+      "idModal": "modal-minisumo2",
+      "srcVideo": "https://www.youtube.com/embed/r8zhPx3rIgI"
+    },
+    {
+      "srcImg": "images/stock_robot.jpg",
+      "altImg": "Imagen minisumo3",
+      "titulo": "Minisumo",
+      "descripcionBreve": "descricion breve",
+      "descripcionCompleta": "La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.",
+      "idModal": "modal-minisumo",
+      "srcVideo": "https://www.youtube.com/embed/r8zhPx3rIgI"
+    },
+    {
+      "srcImg": "images/stock_robot.jpg",
+      "altImg": "Imagen minisumo",
+      "titulo": "Minisumo",
+      "descripcionBreve": "descricion breve",
+      "descripcionCompleta": "La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.",
+      "idModal": "modal-minisumo4",
+      "srcVideo": "https://www.youtube.com/embed/r8zhPx3rIgI"
+    },
+    {
+      "srcImg": "images/stock_robot.jpg",
+      "altImg": "Imagen minisumo",
+      "titulo": "Minisumo",
+      "descripcionBreve": "descricion breve",
+      "descripcionCompleta": "La categoría de robots sumo consiste en una competencia en la que se enfrentan dos robots, simulando la lucha de dos guerreros sumo, en la que por medio de sus habilidades; tales como fuerza, velocidad y destreza; deben encontrar la forma de empujar y sacar a su oponente del área de combate. Dicha área está definida por una zona circular de color negro, llamado Dohyo, bordeado externamente por una línea de color blanca. Los robots se ubican en sus posiciones iníciales y cuando el juez de la señal, cada representante encenderá su robot y este deberá activarse después de 5 segundos. En cada combate se realizarán tres enfrentamientos y en cada enfrentamiento a cada robot se le suman puntos si resulta vencedor o se le restan puntos si comete faltas. Al final, ganará el robot que más puntos tenga.",
+      "idModal": "modal-minisumo5",
+      "srcVideo": "https://www.youtube.com/embed/r8zhPx3rIgI"
+    }
+  ]
+}

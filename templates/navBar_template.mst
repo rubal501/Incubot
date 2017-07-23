@@ -1,0 +1,36 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="BarraNavegacion">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" id="titulo">Incubot</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color:white" href="proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="concursos.html">Concursos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="enlaces-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Enlaces utiles
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="enlaces-dropdown">
+                        {{#enlacesUtiles}}
+                        <a class="dropdown-item" href="{{link}}">{{nombre}}</a>
+                        {{/enlacesUtiles}}
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cursos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                        {{#cursos}}
+                        <a class="dropdown-item" href="{{link}}">{{nombre}}</a>
+                        {{/cursos}}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>

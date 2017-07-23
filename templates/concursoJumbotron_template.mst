@@ -1,0 +1,58 @@
+{{#anios}}
+<div class="jumbotron jumbotron-concurso" style="background-image: url("{{imagenFondo}}");">
+    <h1 class="display-3 texto-sobre-foto">{{numeroConcurso}} concurso</h1>
+    <p class="lead texto-sobre-foto">{{leyendaConcurso}}</p>
+    <hr class="my-4 texto-sobre-foto">
+    <p class="texto-sobre-foto">{{descripcionConcurso}}</p>
+    <p class="lead">
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{idModal}}">Ganadores</button>
+        <a class="btn btn-primary btn-lg" href="{{linkFotos}}" role="button">Ver fotos</a>
+    </p>
+    <div class="modal fade " id="{{idModal}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="container">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom:5px;">Lista de Ganadores</h3>
+                    <h5 style="text-align: center; margin-top: 10px; margin-bottom:5px;">{{numeroConcurso}} edicion</h5>
+                    <table class="table table-bordered" >
+                        <tr>
+                            <th></th>
+                            {{#categorias}}
+                            <th>{{categoria}}</th>
+                            {{/categorias}}
+                        </tr>
+                        <tr>
+                            <th>primer lugar</th>
+                            {{#primerosLugares}}
+                            <th>
+                                <p><span class="nombre-persona">{{nombrePersona}}</span><br>
+                                    {{nombreRobot}}
+                                </p>
+                            </th>
+                            {{/primerosLugares}}
+                        </tr>
+                        <tr>
+                            {{#segundosLugares}}
+                            <th>
+                                <p><span class="nombre-persona">{{nombrePersona}}</span><br>
+                                    {{nombreRobot}}
+                                </p>
+                            </th>
+                            {{/segundosLugares}}
+                        </tr>
+                        <tr>
+                            {{#tercerosLugares}}
+                            <th>
+                                <p><span class="nombre-persona">{{nombrePersona}}</span><br>
+                                    {{nombreRobot}}
+                                </p>
+                            </th>
+                            {{/tercerosLugares}}
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/anios}}

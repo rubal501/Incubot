@@ -2,6 +2,13 @@
  * Created by rubal501 on 7/21/17.
  */
 $(function() {
+    $.get('templates/navBar_template.mst', function (template) {
+        $.getJSON('data/navBar_data.json', function(data) {
+            var html = Mustache.to_html(template,data);
+            $('#navBarContainer').html(html);
+
+        });
+    });
     $.get('templates/carousel_template.mst', function (template) {
         $.getJSON('data/carousel_data.json', function(data) {
             var html = Mustache.to_html(template,data);
