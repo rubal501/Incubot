@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fec75ef6-5672-4930-bd49-a91a75c5154e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/stock_robot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/concursoJumbotron_template.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/navBar_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/proyectos_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/programs/js/template_generator/concursos_generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/programs/js/template_generator/proyectos_generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/concursoJumbotron_template.mst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/navBar_template.mst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/proyectosCards_template.mst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concursos.html" afterPath="$PROJECT_DIR$/concursos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/incustyle.css" afterPath="$PROJECT_DIR$/css/incustyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/footer_data.json" afterPath="$PROJECT_DIR$/data/footer_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs/js/template_generator/index_generator.js" afterPath="$PROJECT_DIR$/programs/js/template_generator/index_generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyectos.html" afterPath="$PROJECT_DIR$/proyectos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/footer_template.mst" afterPath="$PROJECT_DIR$/templates/footer_template.mst" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -452,7 +436,7 @@
       <workItem from="1500609910336" duration="5342000" />
       <workItem from="1500618788913" duration="2930000" />
       <workItem from="1500658175517" duration="3994000" />
-      <workItem from="1500777027205" duration="11945000" />
+      <workItem from="1500777027205" duration="11952000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras en el index.html2">
       <created>1500683934093</created>
@@ -461,11 +445,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500683934093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mejoras en el index.html2">
+      <created>1500791334141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500791334141</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31506000" />
+    <option name="totallyTimeSpent" value="31513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1360" height="743" extended-state="0" />
