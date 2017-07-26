@@ -1,16 +1,1 @@
-cosas por hacer
-  INDEX:
-    *hacer que el carouse funcione como debe(*)
-    *poner botones al carousel()
-    *cambiar fuentes y colores()
-    *quitar las imagenes de stock en la parte de los maestros()
-    *modificar los datos de maestros()
-  Concursos:
-    *conseguir fotos a resolucion apropiada().
-    *hacer los modal()
-    *mejorar las leyendas en cada concuros()
-    *pagina de cada concurso(*)
-  Proyectos:
-    *hacer la pagina de cada proyecto()
-    *conseguir imagenes de los proyectos()
-    *conseguir descripciones de los proyectos
+TODO Remove Render-Blocking JavaScript using asinc in the javaScript
