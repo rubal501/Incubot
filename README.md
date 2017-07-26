@@ -30,7 +30,7 @@ la esctructura de los elementos del array se repiten
   ]
 }
 ```
-####Estructura del documento :```data/academia_data.json```
+###Estructura del documento :```data/academia_data.json```
 
 ```
 {
@@ -43,7 +43,7 @@ la esctructura de los elementos del array se repiten
 }
 
 ```
-####Estructura del documento :```data/concursoJumbotron_template.json```
+###Estructura del documento :```data/concursoJumbotron_template.json```
 
 ```
 {
