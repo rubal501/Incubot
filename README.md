@@ -57,23 +57,18 @@ la esctructura de los elementos del array se repiten
 		"categorias": [{
 			"categoria": "nombre de la categoria"
 		}],
+```
+Cada uno de los lugares tienen la misma estructura
+```
 		"primerosLugares": [{
 			"nombrePersona": "nombre de la persona que gano",
 			"nombreRobot": "nombre del robot"
 		}],
-
-		"segundosLugares": [{
-			"nombrePersona": "nombre de la persona que gano",
-			"nombreRobot": "nombre del robot"
-		}],
-
-		"tercerosLugares": [{
-			"nombrePersona": "nombre de la persona que gano",
-			"nombreRobot": "nombre del robot"
-		}]
-	}]
+		....
 }
 ```
+Esto se repite para cada concurso.<br>
+<b>Nota: los concursos deben estar ordenados de mas reciente a mas viejo</b>
 
 
 ## Construido con:
